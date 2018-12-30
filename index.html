@@ -1,0 +1,43 @@
+
+<html lang="en">
+
+    <head>
+        <title>Number Guesser</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+            crossorigin="anonymous">
+    </head>
+    
+    <body class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card card-body text-center mt-5">
+                        <h1 class="heading display-5 pb-1 text-info">Number Guesser</h1>
+                        <h6 class="secondary pb-3 text-info">Guees a number between 1 and 10</h6>
+                        <form id="guees-form" class="js-submit">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="number" class="form-control border-info" id="guess" placeholder="Guess">
+                                </div>
+                            </div>
+                            <div class="forn-group">
+                                <input type="submit" value="Submit" class="btn btn-info rounded btn-block">
+                            </div>
+                        </form>
+    
+                        <div id="result" class="pt-3 d-flex justify-content-center">
+                            <p class="js-text card-text text-info"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
+    
+    </html>
